@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:white ;
+    font-family: cursive;
+}
+/* navigasi */
+header {
+    display: inline;
+}
+nav .navbar {
+    padding-bottom: 15px;
+}
+nav {
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav ul {
+    gap:1rem;
+    display: flex;
+    float: right;
+}
+nav li {
+    list-style: none;
+}
+nav h2{
+    color: #439A97;
+    display: flex;
+    left: 20px;
+    top: 0px;
+    position: absolute;
+    font-size: 25px;
+    margin-top:10px;
+}
+nav li a{
+    color: #439A97;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:lightsalmon;
+    font-size: 17px;
+}
+nav span{
+    color: lightsalmon;
+}
+.Jumbotron{
+    z-index: 1;
+}
+.Jumbotron img {
+    width: 100%;
+    height: 600px;
+    margin-top: -2px;
+    min-width: 400px;
+    object-fit: cover;   
+}
+.Jumbotron h2{
+    color: white;
+    top: 100px;
+    left: 20px;
+    position: absolute;
+    font-size: 70px;
+    min-width: 400px;
+}
+.Jumbotron p{
+    position: absolute;
+    top:190px;
+    color: white;
+    max-width: 700px;
+    left: 20px;
+}
+.buttons{
+    position: absolute;
+    width:160px ;
+    top: 350px;
+    left: 20px;
+}
+.buttons a{
+    text-decoration: none;
+    color:#439A97;
+}
+.buttonSign2{
+    float: right;   
+}
+.buttonSign1{
+    float: left;
+}
+.Jumbotron button{
+    padding: 5px;
+    width: 75px;
+    height: 35px;
+    color: #439A97 ;
+    background-color: white;
+    border: 0;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.Jumbotron button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.arduino img {
+    max-width: 450px;
+    position: absolute;
+    right: 180px;
+    top: 100px;
+}
+/* Navigasi */
+/* Main */
+.content{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.card{
+    width: 80%;
+    margin-top: 100px;
+    padding:40px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.section{
+    max-width:500px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0px 40px 40px;
+}
+.section img{
+    width: 100%;
+}
+.section p{
+    text-align: justify;
+}
+.content img{
+    max-width: 384px;
+    height: 400px;
+    object-fit: contain;
+}
+/* main */
+/* kelas */
+.kelas{
+    text-align: center;
+    background-color: #439A97;
+    margin-bottom:150px;
+    margin-top: 150px;
+    padding: 50px;
+}
+.kelas1{
+    width: 310px;
+    height: 310px;
+    background-color: white;
+    display: inline-block;
+    vertical-align:middle;
+    margin:20px 50px 20px 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.kelas1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.clasmain{
+    width: 100%;
+    padding: 40px;
+}
+.kelas h1{
+    color: white;
+}
+.kelas p{
+    text-align: center;
+    color: #439A97;   
+    margin-bottom:10px;
+}
+.kelas img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.buttonClass{
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #439A97;
+}
+.buttonClass:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* kelas */
+/* aside */
+aside{
+    max-width: 40%;
+    background-color: white;
+    margin: auto;   
+    padding: 40px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.image-profile img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.image-profile{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+aside h1{
+    color: #439A97;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+table{
+    color: black;
+    margin: auto;
+}
+td{
+    padding: 5px;
+}
+/* aside */
+/* footer */
+footer{
+    height: 80px;
+    background-color: #439A97;
+    margin-top: 150px;
+    padding: 30px;
+}
+.copyright p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.copyright p span{
+    color: lightsalmon;
+}
+/* footer */
